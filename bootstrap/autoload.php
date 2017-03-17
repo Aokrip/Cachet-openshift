@@ -9,6 +9,9 @@
  * file that was distributed with this source code.
  */
 
+//KERMIT MODIFICATION
+ini_set('xdebug.max_nesting_level', 300);
+
 define('LARAVEL_START', microtime(true));
 
 define('CACHET_VERSION', trim(file_get_contents(__DIR__.'/../VERSION')));
